@@ -11,4 +11,3 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
     # Your code here
     import numpy as np
     return np.array(a).T
-    pass
