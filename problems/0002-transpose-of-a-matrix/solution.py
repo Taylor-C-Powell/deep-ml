@@ -9,5 +9,5 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
         The transposed matrix of shape (n, m)
     """
     # Your code here
-    import numpy as np
-    return np.array(a).T
+    import numpy
+    return numpy.array(a).T
